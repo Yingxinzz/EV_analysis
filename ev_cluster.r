@@ -12,7 +12,7 @@ library(jsonlite)
 
 rm(list = ls())
 gc()
-file_path <- "ARZ_human/"
+file_path <- "ARZ_human/datasets"
 output_matrix_path <- "ARZ_human/all_results"
 output_seurat_path <- "ARZ_human/SeuratObjects"
 output_merged_path <- "ARZ_human/merge"
